@@ -4,7 +4,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.android.tools.build:gradle:1.5.0'
     }
 }
 
@@ -38,12 +38,12 @@ android {
 
         }
     }
-    compileSdkVersion 19
+    compileSdkVersion 23
     buildToolsVersion "23.0.2"
     defaultConfig {
         applicationId "com.randomsymphony.games.ochre"
         minSdkVersion 11
-        targetSdkVersion 19
+        targetSdkVersion 23
     }
     lintOptions {
         abortOnError false
@@ -65,7 +65,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:19.0.0'
+    compile 'com.android.support:support-v4:23.1.1'
     compile 'com.squareup.okhttp3:okhttp:3.0.0-RC1'
     compile 'com.google.apis:google-api-services-urlshortener:v1-rev41-1.21.0'
     compile 'com.google.http-client:google-http-client-android:1.19.0'
